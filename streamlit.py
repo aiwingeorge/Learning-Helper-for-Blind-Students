@@ -7,8 +7,8 @@ import pyttsx3
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-pdf_file_path = r'C:\Users\shilp\OneDrive\Documents\Luminar\DL Deep Learning\Learning Helper for Blind\EnglishPart1.pdf'
-img_path = r'C:\Users\shilp\OneDrive\Documents\Luminar\DL Deep Learning\Learning Helper for Blind\english.png'
+pdf_file_path = r'--PDF Path--'
+img_path = r'--Image Path--'
 
 def perform_ocr(image):
     text=pytesseract.image_to_string(image)
